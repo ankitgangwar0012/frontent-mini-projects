@@ -1,0 +1,28 @@
+button{
+            font-size: 1.2rem;
+            padding: 12px;
+            width: 100px;
+            background-color: white;
+            text-align: center;
+            transition: all 0.2s;
+            margin: 10px;
+            
+        }
+
+        .btn1{
+            border: 2px solid red;
+        }
+        .btn2{
+            border:2px solid rgb(22, 218, 22);
+        }
+
+        .btn1:hover{
+            background-color: red;
+            color: white;
+            cursor: pointer;
+        }
+        .btn2:hover{
+            background-color:rgb(22, 218, 22);
+            color: white;
+            cursor: pointer;
+        }
