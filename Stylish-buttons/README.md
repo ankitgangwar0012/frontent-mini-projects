@@ -13,5 +13,6 @@ A simple stylish button with hover animation using pure CSS.
 
 ## Preview
 
-![Navbar Preview](screenshots/preview.png)
+![Stylish buttons Preview](screenshots/preview.png)
+
 
