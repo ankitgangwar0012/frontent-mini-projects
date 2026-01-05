@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+
+    /* Changing color values here can change color verywere in website */
+    --bgColor: rgb(0, 63, 180);
+    --hover:rgba(255, 255, 255, 0.201);
+}
+ul{
+    display: flex;
+    background-color: var(--bgColor,#333);
+}
+
+li{
+    list-style-type: none;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+li a:hover{
+    background-color: var(--hover,#ccc) ;
+}
+
+h2{
+    margin: 15px 6px 0;
+}
+.switch-color{
+    padding: 3px;
+    margin: 6px;
+}
