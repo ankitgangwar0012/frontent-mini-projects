@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown - CSS</title>
+    <style>
+        .dropdown {
+            position: relative;
+            width: 200px;
+            box-shadow: 3px 3px 2px black;
+        }
+
+        .dropdown-btn {
+            border: none;
+            background-color: #9430f7;
+            width: 200px;
+            padding: 8px;
+            font-size: 25px;
+        }
+
+        .dropdown-links {
+            display: none;
+            width: 200px;
+            position: absolute;
+            top: 45px;
+            box-shadow: 3px 3px 2px black;
+        }
+
+        .dropdown-links a {
+            display: block;
+            background-color: #a952ff;
+            padding: 8px;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .dropdown-links a:hover {
+            background-color: greenyellow;
+        }
+
+        .dropdown:hover .dropdown-links {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dropdown">
+        <button class="dropdown-btn">Course</button>
+        <div class="dropdown-links">
+            <a href="">Python</a>
+            <a href="">Java</a>
+            <a href="">C++</a>
+            <a href="">Rust</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
